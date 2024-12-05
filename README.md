@@ -57,7 +57,7 @@ Your feedback is invaluable to us. If you have any feedback about the model, ple
 
 ### Citation
 
-If this model helped your research, please cite [Prithvi-EO-2.0](https://arxiv.org/abs/2412.02732) in your publications. Here are two BibTeX entries as examples:
+If this model helped your research, please cite [Prithvi-EO-2.0](https://arxiv.org/abs/2412.02732) in your publications.
 
 ```
 @article{Prithvi-EO-V2-preprint,    
