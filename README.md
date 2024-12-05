@@ -57,13 +57,13 @@ Your feedback is invaluable to us. If you have any feedback about the model, ple
 
 ### Citation
 
-If this model helped your research, please cite `Prithvi-EO-2.0` in your publications. Here are two BibTeX entries as examples:
+If this model helped your research, please cite [Prithvi-EO-2.0](https://arxiv.org/abs/2412.02732) in your publications. Here are two BibTeX entries as examples:
 
 ```
-@article{Prithvi-EO-2-preprint,    
+@article{Prithvi-EO-V2-preprint,    
     author          = {Szwarcman, Daniela and Roy, Sujit and Fraccaro, Paolo and Gíslason, Þorsteinn Elí and Blumenstiel, Benedikt and Ghosal, Rinki and de Oliveira, Pedro Henrique and de Sousa Almeida, João Lucas and Sedona, Rocco and Kang, Yanghui and Chakraborty, Srija and Wang, Sizhe and Kumar, Ankur and Truong, Myscon and Godwin, Denys and Lee, Hyunho and Hsu, Chia-Yu and Akbari Asanjan, Ata and Mujeci, Besart and Keenan, Trevor and Arévolo, Paulo and Li, Wenwen and Alemohammad, Hamed and Olofsson, Pontus and Hain, Christopher and Kennedy, Robert and Zadrozny, Bianca and Cavallaro, Gabriele and Watson, Campbell and Maskey, Manil and Ramachandran, Rahul and Bernabe Moreno, Juan},
     title           = {{Prithvi-EO-2.0: A Versatile Multi-Temporal Foundation Model for Earth Observation Applications}},
-    journal         = {arxiv},
+    journal         = {arXiv preprint arXiv:2412.02732},
     year            = {2024}
 }
 ```
