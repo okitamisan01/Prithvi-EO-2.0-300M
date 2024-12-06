@@ -320,9 +320,9 @@ def main(
     print(
         f"\nTreating {len(data_files)} files as {len(data_files)} time steps from the same location\n"
     )
-    if len(data_files) != 3:
+    if len(data_files) != 4:
         print(
-            "The original model was trained for 3 time steps (expecting 3 files). \nResults with different numbers of timesteps may vary"
+            "The original model was trained for four time steps. \nResults with different numbers of time steps may vary"
         )
 
     if torch.cuda.is_available():
