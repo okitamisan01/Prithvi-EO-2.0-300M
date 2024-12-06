@@ -472,14 +472,15 @@ if __name__ == "__main__":
         "--data_files",
         type=str,
         nargs="+",
-        default=["examples/HLS.L30.T13REN.2018013T172747.v2.0.B02.B03.B04.B05.B06.B07_cropped.tif",
-                 "examples/HLS.L30.T13REN.2018029T172738.v2.0.B02.B03.B04.B05.B06.B07_cropped.tif",
-                 "examples/HLS.L30.T13REN.2018061T172724.v2.0.B02.B03.B04.B05.B06.B07_cropped.tif"
+        default=["examples/Mexico_HLS.S30.T13REM.2018026T173609.v2.0_cropped.tif",
+                 "examples/Mexico_HLS.S30.T13REM.2018106T172859.v2.0_cropped.tif",
+                 "examples/Mexico_HLS.S30.T13REM.2018201T172901.v2.0_cropped.tif",
+                 "examples/Mexico_HLS.S30.T13REM.2018266T173029.v2.0_cropped.tif",
                  ],
         help="Path to the data files. Assumes multi-band files.",
     )
     parser.add_argument(
-        "--config",
+        "--config_path",
         "-c",
         type=str,
         default="config.json",
@@ -488,7 +489,7 @@ if __name__ == "__main__":
     parser.add_argument(
         "--checkpoint",
         type=str,
-        default="Prithvi_EO_V2_300M_TL.pt",
+        default="Prithvi_EO_V2_300M.pt",
         help="Path to a checkpoint file to load from.",
     )
     parser.add_argument(
