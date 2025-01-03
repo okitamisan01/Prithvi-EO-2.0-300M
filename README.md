@@ -52,7 +52,7 @@ python inference.py --data_files t1.tif t2.tif t3.tif t4.tif --input_indices <op
 You can finetune the model using [TerraTorch](https://github.com/IBM/terratorch). Examples of configs and notebooks are provided in the project repository: [github.com/NASA-IMPACT/Prithvi-EO-2.0](https://github.com/NASA-IMPACT/Prithvi-EO-2.0#fine-tuning).  
 Example Notebooks:
 
-[Multitemporal Crop Segmentation](https://github.com/NASA-IMPACT/Prithvi-EO-2.0/blob/main/examples/example_multitemporalcrop.ipynb)  
+[Multitemporal Crop Segmentation](https://github.com/NASA-IMPACT/Prithvi-EO-2.0/blob/main/examples/example_multitemporalcrop.ipynb)   [<b><i>>>Try it on Colab<<</i></b>](https://colab.research.google.com/github/NASA-IMPACT/Prithvi-EO-2.0/blob/main/examples/example_multitemporalcrop.ipynb) (Choose T4 GPU runtime)  
 [Landslide Segmentation](https://github.com/NASA-IMPACT/Prithvi-EO-2.0/blob/main/examples/example_landslide4sense.ipynb) [<b><i>>>Try it on Colab<<</i></b>](https://colab.research.google.com/github/NASA-IMPACT/Prithvi-EO-2.0/blob/main/examples/example_landslide4sense.ipynb) (Choose T4 GPU runtime)  
 [Carbon Flux Prediction (Regression)](https://github.com/NASA-IMPACT/Prithvi-EO-2.0/blob/main/examples/carbon_flux/main_flux_finetune_baselines_trainer.ipynb)
 
