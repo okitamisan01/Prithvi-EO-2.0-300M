@@ -358,7 +358,7 @@ def main(
 
     model.to(device)
 
-    state_dict = torch.load(checkpoint, map_location=device)
+    state_dict = torch.load(checkpoint, map_location=device, weights_only=True)
     # discard fixed pos_embedding weight
     for k in list(state_dict.keys()):
         if 'pos_embed' in k:
