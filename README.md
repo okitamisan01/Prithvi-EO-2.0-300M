@@ -27,6 +27,8 @@ Second, we considered geolocation (center latitude and longitude) and date of ac
 
 | Model | Details | Weights                                                                                                                                                                    |
 | ------------- | ------------- |----------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Prithvi-EO-2.0-tiny-TL | Pretrained 5M parameter model with temporal and location embeddings                                      | [https://huggingface.co/ibm-nasa-geospatial/Prithvi-EO-2.0-tiny-TL](https://huggingface.co/ibm-nasa-geospatial/Prithvi-EO-2.0-tiny-TL)    |
+| Prithvi-EO-2.0-100M-TL | Pretrained 100M parameter model with temporal and location embeddings                                      | [https://huggingface.co/ibm-nasa-geospatial/Prithvi-EO-2.0-100M-TL](https://huggingface.co/ibm-nasa-geospatial/Prithvi-EO-2.0-100M-TL)    |
 |Prithvi-EO-2.0-300M   | Pretrained 300M parameter model  | [https://huggingface.co/ibm-nasa-geospatial/Prithvi-EO-2.0-300M](https://huggingface.co/ibm-nasa-geospatial/Prithvi-EO-2.0-300M)                                           |
 |Prithvi-EO-2.0-300M-TL   | Pretrained 300M parameter model with temporal and location embeddings | [https://huggingface.co/ibm-nasa-geospatial/Prithvi-EO-2.0-300M-TL](https://huggingface.co/ibm-nasa-geospatial/Prithvi-EO-2.0-300M-TL) |
 |Prithvi-EO-2.0-600M   | Pretrained 600M parameter model  | [https://huggingface.co/ibm-nasa-geospatial/Prithvi-EO-2.0-600M](https://huggingface.co/ibm-nasa-geospatial/Prithvi-EO-2.0-600M) |                                          |
@@ -57,7 +59,14 @@ Example Notebooks:
 [Landslide Segmentation](https://github.com/NASA-IMPACT/Prithvi-EO-2.0/blob/main/examples/example_landslide4sense.ipynb) [<b><i>>>Try it on Colab<<</i></b>](https://colab.research.google.com/github/NASA-IMPACT/Prithvi-EO-2.0/blob/main/examples/example_landslide4sense.ipynb) (Choose T4 GPU runtime)  
 [Carbon Flux Prediction (Regression)](https://github.com/NASA-IMPACT/Prithvi-EO-2.0/blob/main/examples/carbon_flux/main_flux_finetune_baselines_trainer.ipynb)
 
+If you plan to use Prithvi in your custom PyTorch pipeline, you can build the backbone with:
+```python
+from terratorch.registry import BACKBONE_REGISTRY
 
+model = BACKBONE_REGISTRY.build("prithvi_eo_v2_tiny_tl", pretrained=True)
+```
+
+Find more information on model usage in our [Prithvi Docs](https://ibm.github.io/terratorch/stable/guide/prithvi_eo/).
 
 ### Feedback
 
